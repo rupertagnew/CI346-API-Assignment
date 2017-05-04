@@ -6,11 +6,12 @@
 
 ### HATEOAS Shifts
 
-The 'HATEOAS Shifts' section is to demonstrate the HATEOAS/ReactJS frontend elements of the assignment, I have implemented authentication using Spring Security.
+* The 'HATEOAS Shifts' section is to demonstrate the HATEOAS/ReactJS frontend elements of the assignment, I have implemented authentication using Spring Security.
+The credentials are:
 
-    ```
-The credentials are university/fielding.
-    ```
+```
+ university/fielding.
+```
 To install type:
 ```
 mvn spring-boot:run
@@ -32,7 +33,7 @@ mvn spring-boot:run
 ##	Setup:
 * 	Please create the following table in postgres using the database name **"postgres"** and credentials **postgres/1234**. These can be found or configured in the **application.properties file** in the PostgreSQL project
 
-	```
+```
 	CREATE TABLE employee(
     id BIGINT PRIMARY KEY  NOT NULL,
     firstname VARCHAR(20),
@@ -51,8 +52,8 @@ On the first run to skip tests as the tests require data from the first set-up r
 mvn test
 ```
 
-    ### Tests run:
-    **   Postgres project: **
+ ### Tests run:
+ **   Postgres project: **
 ```
 	ApplicationTest.java
 		shouldReturnDefaultMessage() - tests to see if initial setup worked
@@ -105,7 +106,7 @@ CREATE TABLE dbo.employeeShifts
 
 
 
-    ## References
+   ## References
 
 * [JUnit Tests Template](http://www.lucassaldanha.com/unit-and-integration-tests-in-spring-boot/)
 * [React + Spring API Tutorial](https://github.com/spring-guides/tut-react-and-spring-data-rest)
