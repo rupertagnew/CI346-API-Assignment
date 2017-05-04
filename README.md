@@ -1,6 +1,6 @@
-#CI346 API Assignment
+# CI346 API Assignment
 
-##This assignment is split into two separate project files:
+## This assignment is split into two separate project files:
 1.) HATEOAS Shifts Project
 2.) PostgreSQL JUNIT Test Project
 
@@ -36,7 +36,7 @@ mvn spring-boot:run
     id BIGINT PRIMARY KEY  NOT NULL,
     firstname VARCHAR(20),
     lastname VARCHAR(20)
-);
+    );
 ```
 
 * Then run:
@@ -50,8 +50,8 @@ On the first run to skip tests as the tests require data from the first set-up r
 mvn test
 ```
 
-### Tests run:
-**Postgres project:**
+    ### Tests run:
+    **   Postgres project: **
 ```
 	ApplicationTest.java
 		shouldReturnDefaultMessage() - tests to see if initial setup worked
@@ -105,7 +105,7 @@ CREATE TABLE dbo.employeeShifts
 
 
 
-## References
+    ## References
 
 * [JUnit Tests Template](http://www.lucassaldanha.com/unit-and-integration-tests-in-spring-boot/)
 * [React + Spring API Tutorial](https://github.com/spring-guides/tut-react-and-spring-data-rest)
