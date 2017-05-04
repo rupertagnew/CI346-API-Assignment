@@ -7,9 +7,10 @@
 ### HATEOAS Shifts
 
 The 'HATEOAS Shifts' section is to demonstrate the HATEOAS/ReactJS frontend elements of the assignment, I have implemented authentication using Spring Security.
-```
+
+    ```
 The credentials are university/fielding.
-```
+    ```
 To install type:
 ```
 mvn spring-boot:run
@@ -80,8 +81,7 @@ shift_id, name, employee_id
 
 employeeShifts:
 shift_id, employee_id    
-```
-```
+
 CREATE TABLE dbo.employees
 (
     employeeID BIGINT PRIMARY KEY  NOT NULL,
