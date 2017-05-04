@@ -110,3 +110,7 @@ CREATE TABLE dbo.employeeShifts
 * [JUnit Tests Template](http://www.lucassaldanha.com/unit-and-integration-tests-in-spring-boot/)
 * [React + Spring API Tutorial](https://github.com/spring-guides/tut-react-and-spring-data-rest)
 * [PostgreSQL + Spring Tutorial](http://javasampleapproach.com/spring-framework/use-spring-jpa-postgresql-spring-boot)
+
+
+### Images:
+![Image 1](https://cloud.githubusercontent.com/assets/11032404/25718760/35f0bc54-30ff-11e7-8223-9457c12a7bee.PNG)
