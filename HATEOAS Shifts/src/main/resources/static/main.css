@@ -1,0 +1,18 @@
+
+.addemployee {
+    text-align: center;
+    /*border: 2px solid #a1a1a1;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    width: 300px;*/
+}
+
+.employeetable {
+	padding: 10px 10px 10px 10px;
+	margin-right: auto; 
+	margin-left: auto; 
+	width: 90%; 
+}
+body, div{
+	font-family: 'Varela Round', sans-serif;
+}
